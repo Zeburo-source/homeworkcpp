@@ -10,7 +10,7 @@ int main() {
     std::cin >> a;
 
     // Формула для вычисления объема икосаэдра
-    volume = (5 * (3 + std::sqrt(5)) / 12) * std::pow(a, 3);
+    volume = (15 + (5 * std::sqrt(5)) / 12) * std::pow(a, 3);
 
     // Вывод объема икосаэдра
     std::cout << "Объем икосаэдра: " << volume << std::endl;
